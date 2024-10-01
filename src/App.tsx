@@ -1,5 +1,12 @@
-import "./App.css";
+import { Hero } from "./components/HeroEcole";
+import { EcoleDetailDomaine } from "./pages/EcoleDetailDomaine";
+import { Ecoles } from "./pages/Ecoles";
 
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      {/* <Ecoles></Ecoles> */}
+      <EcoleDetailDomaine></EcoleDetailDomaine>
+    </>
+  );
 }
